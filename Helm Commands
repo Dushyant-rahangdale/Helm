@@ -1,0 +1,48 @@
+Install a Chart:
+
+helm install [RELEASE_NAME] [CHART]
+Install a Helm chart with the specified release name.
+Upgrade a Release:
+
+helm upgrade [RELEASE_NAME] [CHART]
+Upgrade an existing Helm release with a new chart version.
+List Releases:
+
+helm list
+List all deployed Helm releases.
+Show Release Information:
+
+helm status [RELEASE_NAME]
+Display detailed information about a specific Helm release.
+Rollback to Previous Release:
+
+helm rollback [RELEASE_NAME] [REVISION_NUMBER]
+Roll back a release to a previous revision.
+Uninstall a Release:
+
+helm uninstall [RELEASE_NAME]
+Uninstall and remove a Helm release.
+Search for Charts:
+
+helm search [KEYWORD]
+Search for Helm charts in the Helm Hub.
+Fetch and Update Chart Repositories:
+
+helm repo update
+Update the local repository cache with the latest charts.
+Package a Chart:
+
+helm package [CHART_DIRECTORY]
+Package a Helm chart directory into a versioned chart archive.
+Lint a Chart:
+
+helm lint [CHART_DIRECTORY]
+Check a Helm chart for issues and best practices.
+Render Chart Templates Locally:
+
+helm template [CHART] [VALUES_FILE]
+Render Helm chart templates locally, useful for debugging.
+Create a New Chart:
+
+helm create [CHART_NAME]
+Generate a new Helm chart template with default files and structure.
